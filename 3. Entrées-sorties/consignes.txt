@@ -1,0 +1,6 @@
+1. Ecrire un programme qui dit bonjour
+2. Modifier le programme pour qu'il demande votre nom et dise maintenant : Bonjour <nom>
+3. Modfider le programme pour qu'il demande votre âge et dise maintenant : Bonjour <nom> vous avez <age> ans
+4. Modifier le programme pour qu'il demande votre taille en mètres et dise maintenant : Bonjour <nom> vous avez <age> ans et vous mesurez <taille> m
+5. Modifier le programme pour qu'il calcule votre année de naissance en fonction de votre age et qu'il l'affiche.
+6. Si l'age est négatif, on écrit un message d'erreur sur la sortie standard d'erreur et on dirige les erreurs vers un fichier.

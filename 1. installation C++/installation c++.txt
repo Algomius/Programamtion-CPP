@@ -1,0 +1,28 @@
+1. Installer le compilateur et le debugger C++
+
+- Installer MSYS2 :  https://www.msys2.org/ et suivez les instrutions.
+- Dans la fenêtre MSYS2, installer gcc (compilateur) et gdb (debugger)
+--> pacman -S mingw-w64-x86_64-gcc
+--> pacman -S mingw-w64-x86_64-gdb
+- Ajouter le répertoire "msys64\mingw64\bin" à la variable d'environnment PATH
+- Vérifier que tout est bien installé en ouvrant un terminal :
+--> g++ --version
+--> gdb --version
+
+2. Compiler un fichier source C++ en ligne de commande :
+
+- g++ source.cpp -o source.exe
+
+3. Lier le compilateur a VS code :
+
+- Accéder aux extensions : <ctrl> + <shift> + X
+- Chercher C++
+- Installer C/C++ IntelliSense, debugging, and code browsing et suivez les instructions : https://code.visualstudio.com/docs/cpp/config-mingw
+- Installer code runner
+
+
+4. Installer code::blocks :
+- Télécharger code:: blocks avec le compilateur GCC : https://www.codeblocks.org/
+- Créer un projet "console application"
+
+
